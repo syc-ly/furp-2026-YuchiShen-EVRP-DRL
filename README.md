@@ -25,16 +25,16 @@ This is your project home for the FURP programme. **Fork this template**, rename
 
 | Field | Your entry |
 |---|---|
-| Student name(s) | _e.g. Jason Zhang_ |
-| Project title | _..._ |
-| Project tag | _e.g. ROSBootcamp_ |
+| Student name(s) | _Yuchi Shen_ |
+| Project title | _Deep RL for Electric Vehicle Routing with Time Windows (EVRP-TW)_ |
+| Project tag | _EVRP-TW-RL_ |
 | Track | Research |
-| Supervising faculty | _..._ |
-| Project lead | _..._ |
-| Team or individual | _..._ |
-| Cited paper being replicated | _title + link/DOI_ |
+| Supervising faculty | _Tianxiang Cui_ |
+| Project lead | _NA_ |
+| Team or individual | _Team_ |
+| Cited paper being replicated | _[The Electric Vehicle-Routing Problem with Time Windows and Recharging Stations](https://doi.org/10.1287/trsc.2013.0490)_ |
 
-**One-line summary:** _What is your project about? (1–2 sentences)_
+**One-line summary:** _We build a deep reinforcement learning solver to tackle the EVRP-TW problem with battery and time-window limits, and compare its performance with traditional OR-Tools optimization baselines on standard logistics benchmark instances._
 
 ---
 
