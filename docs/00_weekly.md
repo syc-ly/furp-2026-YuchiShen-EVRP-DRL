@@ -71,7 +71,7 @@ Public Solomon VRPTW datasets only provide complete 100-customer instances. Cust
 3. **MILP Variable Coupling for UAV-Truck Hybrid System**
 The hybrid drone-truck delivery MILP model relies on coupled decision variables for vehicle routing and drone launch/landing operations. Defining interconnected objective cost terms and constraint sets was the main modeling bottleneck during recreation.
 
-## Step5 Reflection & Comparative Conclusion (Lab Required Overview)
+## Step5 Reflection & Comparative Conclusion
 ### 1. Cross-method performance comparison (Objective Value & Runtime)
 1. **Exact OR MILP Methods**
    - Solution Quality: Guaranteed global optimal results, the most reliable objective values as benchmark ground truth.
