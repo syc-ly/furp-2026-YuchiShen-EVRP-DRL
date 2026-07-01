@@ -30,6 +30,35 @@
 
 <!-- =================  YOUR ENTRIES BELOW  ================= -->
 
+### Week 2 — 2026-06-29
+
+**Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
+
+**Progress this week**
+- _What did you actually do / finish?_
+
+| Methodology | Problem Scale (Number of Clients) | Feasibility Status | Objective Value (No Augmentation) | Objective Value (With Augmentation) | Total Runtime (Minutes) |
+|-------------|-----------------------------------|---------------------|-----------------------------------|-------------------------------------|-------------------------|
+| POMO (Basic CVRP, no E/TW constraints) | 50 | Fully Feasible | 10.9186 | 10.7185 | 0.33 |
+| POMO (Basic CVRP, no E/TW constraints) | 100 | Fully Feasible | 15.8316 | 15.7418 | 1.75 |
+| GA (with E constraint) | 50 |  |  | — |  |
+| GA (with E constraint) | 100 |  |  | — |  |
+| OR (MILP for UAV-Truck problem) | 50 |  |  | — |  |
+| OR (MILP for UAV-Truck problem) | 100 |  |  | — |  |
+
+
+**Challenges & blockers**
+- _What got in the way? What are you stuck on?_
+
+**Next steps**
+- _What will you do next week?_
+
+**Hours spent (optional):** _e.g. 6h_
+
+**Links (optional):** _commits, notebooks, docs, datasets..._
+
+---
+
 ### Week 1 — 2026-06-12
 
 **Attended this week's meeting:** Yes 
