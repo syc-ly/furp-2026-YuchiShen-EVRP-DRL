@@ -47,8 +47,8 @@
 | POMO (Basic CVRP) | 100 | Fully Feasible | 15.83 | 105.0 |
 | GA (VRPTW) | 50 | Feasible (Satisfies E/TW) | 17392.41 | 0.44 |
 | GA (VRPTW) | 100 | Feasible (Satisfies E/TW) | 34056.65 | 3.67 |
-| OR (MILP) | 50 | In progress | — | — |
-| OR (MILP) | 100 | In progress | — | — |
+| OR (MILP ETRP exact model, with energy E constraint) | 50 | Optimal & Fully Feasible | 51.0 | 0.21 |
+| OR (MILP ETRP exact model, with energy E constraint) | 100 | Optimal & Fully Feasible | 101.0 | 14.09 |
 
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
