@@ -47,8 +47,10 @@
 | POMO (Basic CVRP) | 100 | Fully Feasible | 15.83 | 105.0 |
 | GA (VRPTW) | 50 | Feasible (Satisfies E/TW) | 17392.41 | 0.44 |
 | GA (VRPTW) | 100 | Feasible (Satisfies E/TW) | 34056.65 | 3.67 |
-| OR (MILP ETRP exact model, with energy E constraint) | 50 | Optimal & Fully Feasible | 51.0 | 0.21 |
-| OR (MILP ETRP exact model, with energy E constraint) | 100 | Optimal & Fully Feasible | 101.0 | 14.09 |
+| OR (MILP ETRP: Electric Truck delivery, energy constraint) | 50 | Optimal & Fully Feasible | 51.0 | 0.21 |
+| OR (MILP ETRP: Electric Truck delivery, energy constraint) | 100 | Optimal & Fully Feasible | 101.0 | 14.09 |
+| OR (MILP UAV-Courier mixed fleet dispatch) | 50 | Optimal & Fully Feasible | 105.0 | 0.0468 |
+| OR (MILP UAV-Courier mixed fleet dispatch) | 100 | Optimal & Fully Feasible | 241.0 | 0.0229 |
 
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
