@@ -37,12 +37,12 @@
 **Progress this week**
 - _What did you actually do / finish?_
 
-| Methodology | Problem Scale (Number of Clients) | Feasibility Status | Objective Value (No Augmentation) | Objective Value (With Augmentation) | Total Runtime (Minutes) |
+| Methodology | Problem Scale (Number of Clients) | Feasibility Status | Objective Value (No Augmentation) | Objective Value (With Augmentation) | Total Runtime (Seconds) |
 |-------------|-----------------------------------|---------------------|-----------------------------------|-------------------------------------|-------------------------|
-| POMO (Basic CVRP, no E/TW constraints) | 50 | Fully Feasible | 10.9186 | 10.7185 | 0.33 |
-| POMO (Basic CVRP, no E/TW constraints) | 100 | Fully Feasible | 15.8316 | 15.7418 | 1.75 |
-| GA (with E constraint) | 50 |  |  | — |  |
-| GA (with E constraint) | 100 |  |  | — |  |
+| POMO (Basic CVRP, no E/TW constraints) | 50 | Fully Feasible | 10.9186 | 10.7185 | 19.8 |
+| POMO (Basic CVRP, no E/TW constraints) | 100 | Fully Feasible | 15.8316 | 15.7418 | 105 |
+| GA (VRPTW, NO E constraint) | 50 | Fully Feasible (All time window & capacity satisfied) | 17392.4128 | — | 0.4416 |
+| GA (VRPTW, NO E constraint) | 100 | Fully Feasible (All time window & capacity satisfied) | 34056.6490 | — | 3.6707 |
 | OR (MILP for UAV-Truck problem) | 50 |  |  | — |  |
 | OR (MILP for UAV-Truck problem) | 100 |  |  | — |  |
 
