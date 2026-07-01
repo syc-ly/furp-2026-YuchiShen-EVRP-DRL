@@ -32,28 +32,37 @@
 
 ### Week 2 — 2026-06-29
 
-**Attended this week's meeting:** Yes / No (if No, did you email leave? Yes / No)
+**Attended this week's meeting:** Yes
 
 **Progress this week**
 - _What did you actually do / finish?_
+  - Successfully recreated the baseline environments for POMO and GA.
+  - Implemented dynamic instance scaling for GA to support comparative analysis across 50 and 100 client nodes.
+  - Integrated a timing mechanism into the GA framework to capture precise execution runtimes.
+  - Conducted performance comparison experiments; results are summarized below.
 
-| Methodology | Problem Scale (Number of Clients) | Feasibility Status | Objective Value (No Augmentation) | Objective Value (With Augmentation) | Total Runtime (Seconds) |
-|-------------|-----------------------------------|---------------------|-----------------------------------|-------------------------------------|-------------------------|
-| POMO (Basic CVRP, no E/TW constraints) | 50 | Fully Feasible | 10.9186 | 10.7185 | 19.8 |
-| POMO (Basic CVRP, no E/TW constraints) | 100 | Fully Feasible | 15.8316 | 15.7418 | 105 |
-| GA (VRPTW, NO E constraint) | 50 | Fully Feasible (All time window & capacity satisfied) | 17392.4128 | — | 0.4416 |
-| GA (VRPTW, NO E constraint) | 100 | Fully Feasible (All time window & capacity satisfied) | 34056.6490 | — | 3.6707 |
-| OR (MILP for UAV-Truck problem) | 50 |  |  | — |  |
-| OR (MILP for UAV-Truck problem) | 100 |  |  | — |  |
-
+| Methodology | Problem Scale | Feasibility Status | Objective Value | Total Runtime (s) |
+| :--- | :--- | :--- | :--- | :--- |
+| POMO (Basic CVRP) | 50 | Fully Feasible | 10.92 | 19.8 |
+| POMO (Basic CVRP) | 100 | Fully Feasible | 15.83 | 105.0 |
+| GA (VRPTW) | 50 | Feasible (Satisfies E/TW) | 17392.41 | 0.44 |
+| GA (VRPTW) | 100 | Feasible (Satisfies E/TW) | 34056.65 | 3.67 |
+| OR (MILP) | 50 | In progress | — | — |
+| OR (MILP) | 100 | In progress | — | — |
 
 **Challenges & blockers**
 - _What got in the way? What are you stuck on?_
+  - **Constraint Implementation:** Implementing E (Capacity) and TW (Time Window) constraints in the baseline code required manual intervention in the evaluation functions (penalty mechanisms). 
+  - **Data Scalability:** The standard Solomon datasets are primarily scaled for 100 nodes. I implemented a dynamic truncation method to allow the GA to evaluate 50-node instances, ensuring consistency in performance comparison.
+  - **OR Modeling:** Currently transitioning to the MILP formulation for the UAV-Truck problem; setting up the objective function and decision variables is the immediate blocker.
 
 **Next steps**
 - _What will you do next week?_
+  - Finalize the MILP (OR) model formulation for the UAV-Truck problem.
+  - Draft the comparison reflection document, specifically analyzing the trade-offs between heuristic-based approaches (GA/POMO) and exact methods (OR).
+  - Investigate the impact of E/TW constraints on the convergence rates of different algorithms.
 
-**Hours spent (optional):** _e.g. 6h_
+**Hours spent:** 12h
 
 **Links (optional):** _commits, notebooks, docs, datasets..._
 
